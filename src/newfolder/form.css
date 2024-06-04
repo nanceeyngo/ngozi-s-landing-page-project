@@ -1,0 +1,104 @@
+button{
+    background-clip: padding-box;
+    background-color: brown;
+    border: solid transparent 2px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+      Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 30px;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    width: auto;
+    touch-action: manipulation;
+    vertical-align: bottom;
+    margin: auto 0 0 0;
+  }
+  button:hover,
+  button:focus {
+    background-color: orange;
+    box-shadow: black 0 4px 12px 0;
+  }
+  button:hover {
+    transform: translateY(-1px);
+  }
+  .form {
+    margin-top: 30px;
+    display: flex;
+    box-shadow: black 0px 5px 15px;
+    padding: 25px;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color: white;
+  }
+  input{
+    border: 2px solid brown;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+  }
+  select{
+    border: 0;
+    border: 2px solid brown;
+    background: transparent;
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    
+  }
+  label{
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+      Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+
+  }
+  input:hover,
+  input:focus {
+    background-color: whitesmoke;
+    box-shadow: black 0 4px 12px 0;
+  }
+  input:hover {
+    transform: translateY(-1px);
+  }
+  option:hover, option:focus{
+    background-color: whitesmoke;
+    box-shadow: black 0 4px 12px 0;
+  }
+  .inndiv{
+    color: goldenrod;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+   
+  }
+  .errormsg{
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: ease-in;
+  }
+
+   /* using the @media query to define styles for devices with 900 pixels or below */
+  @media (max-width: 769px) {
+    .inndiv{
+        font-size: 18px;
+        text-overflow: inherit;
+        color: white;
+      
+    }
+    .bk{
+      margin-left: 50px;
+    }
+  }
