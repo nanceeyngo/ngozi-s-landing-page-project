@@ -13,4 +13,6 @@ const Contactus = () => {
       </div> 
     ); 
 } 
+
+//exporting the component so that it can be imported in other files
 export default Contactus; 
